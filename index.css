@@ -74,7 +74,7 @@ a {
     padding: 10px 20px;
     color: white; 
     background-color: black; /* Color de fondo de los botones */
-    border: 3px black solid;
+    border: 3px white solid;
     transition: 0.2s; /* Transición suave para efectos de hover */
 }
 
