@@ -43,6 +43,13 @@ video {
     margin-bottom: 100px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: justify;
+}
 
 .redes-generativas-adversarias {
     position: relative;
@@ -52,7 +59,7 @@ video {
 .montañas {
     width: 50%;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
     max-width: 100%;
     height: auto;
@@ -69,7 +76,7 @@ video {
 .desierto {
     width: 50%;
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
     max-width: 100%;
     height: auto;

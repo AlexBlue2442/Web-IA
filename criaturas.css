@@ -80,6 +80,13 @@ h1 {
     margin-right: 70px;
 }
 
+#ias-conocidas {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 th {
     border: 2px white solid;
     padding-inline: 50px;
