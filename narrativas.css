@@ -1,0 +1,100 @@
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    filter: brightness(40%);
+}
+
+.texto-inicio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+article p {
+    text-align: justify;
+}
+
+#Desplegable summary {
+    font-size: 24px;
+}
+
+.botón-2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px
+}
+
+.botón-3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.enlace a {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 3px black solid;
+}
+
+.enlace a:hover {
+    color: black;
+    background-color: rgb(209, 209, 209);
+    border: 3px solid black; /* Añade un borde de 2px de grosor de color negro */
+}
+
+/* Botón ENVIAR */
+.enlace2 a {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 3px black solid;
+    border-style: dashed;
+}
+
+.enlace2 a:hover {
+    color: black;
+    background-color: rgb(255, 223, 176);
+    border: 3px solid black;
+    border-style: dashed;
+}
+
+#notas {
+    margin-top: 30px;
+}
+
+#label {
+    font-size: 20px;
+}
+
